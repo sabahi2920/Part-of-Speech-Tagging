@@ -14,7 +14,7 @@ How exactly do we do that?
 Human languages are extremely complex, whereas computers are more systematic, how can we train computers to tag differently in different contexts?
 How to we train a tagger that based on meaning of words and thier frequency/influence in its context?
 <hr --------------------------------------- />  
-This program tries to answer some of these questions and I will also be talking about some improvements that can be made. There are different methods that can ve used and will be helpful based on the kind of dataset we are dealing with and what we wnat to achieve from it. 
+This program tries to answer some of these questions and I will also be talking about some improvements that can be made. There are different methods that can be used and will be helpful based on the kind of dataset we are dealing with and what we wnat to achieve from it. 
     This program uses two classifiers: Naive Bayes and Decision tree and POS tags using two different representations: label encoder and one hot encoder. 
 From my findings it seems that one hot encoder worked best, as it seems to take care of columns where there maybe no data existent and keeps that from messing up the data representation. 
 <hr --------------------------------------- /> 
